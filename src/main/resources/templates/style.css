@@ -100,3 +100,37 @@ nav li:hover {
     padding-top: 20px;
     font-size: 20px;
 }
+
+
+
+
+/***** test *****/
+
+.collapsible-button {
+    cursor: pointer;
+}
+
+.hidden-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.hidden-content > * {
+    font-size: 16px;
+}
+
+.hidden-content h4 {
+    padding-top: 20px;
+}
+
+.hidden-content p {
+    padding: 15px 0 15px 0;
+}
+
+.active {
+    color: #EA5045;
+}
+
+
+
