@@ -120,14 +120,13 @@ nav li:hover {
 
 
 .animation {
-    animation-name: carrousel_kf;
-    animation-duration: 1s;
+    animation: carrousel_kf .8s ease-in;
 
 }
 
 @keyframes carrousel_kf {
     from {
-        opacity: 60%;
+        opacity: 80%;
     }
 
     to {
