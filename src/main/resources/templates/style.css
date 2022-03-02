@@ -12,6 +12,7 @@ body {
 nav {
     background-color: #233249;
     display: flex;
+    justify-content: space-between;
 }
 
  li {
@@ -204,6 +205,9 @@ nav li:hover {
     margin-right: 100px;
 }
 
+.info-text {
+    font-size: 20px;
+}
 
 .info-text p {
     padding-top: 16px;
@@ -223,22 +227,27 @@ nav li:hover {
     color: #fff;
     font-family: "Helvetica Neue Condensed",sans-serif;
     font-size: 1.2em;
+    padding-top:80px;
 
 
 }
 
 footer li{
-    font-weight: normal;
-    padding:20px;
+    font-weight: lighter;
+    padding:10px;
 
 }
 
 footer li:first-child{
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 footer li a{
     font-weight: bold;
+}
+
+footer li a{
+    font-weight: lighter;
     text-decoration: none;
     color: #FFFFFF;
 
