@@ -225,22 +225,24 @@ nav li:hover {
     color: #fff;
     font-family: "Helvetica Neue Condensed",sans-serif;
     font-size: 1.2em;
+    padding-top:80px;
 
 
 }
 
 footer li{
-    font-weight: normal;
-    padding:20px;
+    font-weight: lighter;
+    padding:10px;
 
 }
 
 footer li:first-child{
     font-size: 1.8em;
+    font-weight: bold;
 }
 
 footer li a{
-    font-weight: bold;
+    font-weight: lighter;
     text-decoration: none;
     color: #FFFFFF;
 
